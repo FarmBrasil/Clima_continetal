@@ -25,7 +25,6 @@ ESTACOES_DO_CLIENTE = [
     {'name': 'Continental T-02', 'id_estacao': '80678', 'latitude': -11.5334, 'longitude': -55.2177},
     {'name': 'Continental T-24', 'id_estacao': '80681', 'latitude': -11.4631, 'longitude': -55.2551},
     {'name': 'Continental T-14', 'id_estacao': '80677', 'latitude': -11.4937, 'longitude': -55.2148},
-    {'name': 'PLV Continental', 'id_estacao': '80676', 'latitude': -11.4644, 'longitude': -55.2021},
     {'name': 'Continental Tomazzi', 'id_estacao': '81001', 'latitude': -11.4796, 'longitude': -55.1567},
     {'name': 'Continental T-08', 'id_estacao': '50977', 'latitude': -11.5123, 'longitude': -55.2166}
 ]
@@ -1056,6 +1055,7 @@ if __name__ == "__main__":
         # Faz o script falhar para que o GitHub Actions reporte o erro
 
         exit(1)
+
 
 
 
